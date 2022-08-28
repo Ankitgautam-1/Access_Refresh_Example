@@ -10,10 +10,10 @@ npm i
 npm run build  
 npm run start
 
-#ENV - CLIENT
+# ENV - CLIENT
 VITE_BACKEND_URL= backend url.
 
-#ENV - SERVER
+# ENV - SERVER
 PORT= port to run server.
 MONGO_URL= your mongo db connection url.
 FRONTEND_URL= frontend url (to allow in cors).
