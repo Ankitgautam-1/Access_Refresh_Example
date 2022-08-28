@@ -1,7 +1,7 @@
 # Client
 
- *npm i
- *npm run build.
+ <br /> npm i
+ <br /> npm run build.
  #npm run preview.
 
 # Server
