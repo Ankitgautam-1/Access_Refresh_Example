@@ -2,22 +2,22 @@
 
  <br /> npm i
  <br /> npm run build.
- #npm run preview.
+ <br /> npm run preview.
 
 # Server
 
- #npm i.
- #npm run build.
- #npm run start.
+ <br /> npm i.
+ <br /> npm run build.
+ <br /> npm run start.
 
 # ENV - CLIENT
- #VITE_BACKEND_URL= backend url.
+ <br /> VITE_BACKEND_URL= backend url.
 
 # ENV - SERVER
- #PORT= port to run server.
- #MONGO_URL= your mongo db connection url.
- #FRONTEND_URL= frontend url (to allow in cors).
- #SECRECT_KEY_ACCESS= secrect key for creating and verifying accessToken.
- #SECRECT_KEY_REFRESH= secrect key for creating and verifying refreshToken.
- #ACCESS_TOKEN_EXPIRES= number of hours the accessToken will be valide for.
- #REFRESH_TOKEN_EXPIRES= number of days the refreshToken will be valide for.
+ <br /> PORT= port to run server.
+ <br /> MONGO_URL= your mongo db connection url.
+ <br /> FRONTEND_URL= frontend url (to allow in cors).
+ <br /> SECRECT_KEY_ACCESS= secrect key for creating and verifying accessToken.
+ <br /> SECRECT_KEY_REFRESH= secrect key for creating and verifying refreshToken.
+ <br /> ACCESS_TOKEN_EXPIRES= number of hours the accessToken will be valide for.
+ <br /> REFRESH_TOKEN_EXPIRES= number of days the refreshToken will be valide for.
