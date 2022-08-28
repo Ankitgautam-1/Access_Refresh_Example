@@ -1,6 +1,6 @@
 # Client
 
- npm i.
+ npm i \n
  npm run build.
  npm run preview.
 
