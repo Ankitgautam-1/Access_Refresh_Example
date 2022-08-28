@@ -1,14 +1,14 @@
 # Client
 
- npm i
- npm run build
- npm run preview
+ npm i.
+ npm run build.
+ npm run preview.
 
 # Server
 
- npm i
- npm run build  
- npm run start
+ npm i.
+ npm run build.
+ npm run start.
 
 # ENV - CLIENT
  VITE_BACKEND_URL= backend url.
