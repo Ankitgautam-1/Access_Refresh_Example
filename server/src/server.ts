@@ -19,6 +19,7 @@ app.use(
   cors({
     credentials: true,
     origin: [FRONTEND_URL, "http://localhost:4173"],
+    methods: ["GET", "POST", "PUT"],
   })
 );
 mongoose

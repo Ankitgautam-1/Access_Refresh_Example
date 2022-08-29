@@ -53,16 +53,24 @@ const signIn = async (req: Request, res: Response) => {
               );
               const finalAccessHours = accessTokenHours * 60 * 60 * 1000;
               console.log("finalAccessHours:", finalAccessHours);
-              const finalRefreshToken = refreshTokenDays * 24 * 60 * 60 * 1000;
-              console.log("finalRefreshToken:", finalRefreshToken);
+              const finalRefreshTime = refreshTokenDays * 24 * 60 * 60 * 1000;
+              console.log("finalRefreshTime:", finalRefreshTime);
 
               res.cookie("accessToken", accessToken, {
                 maxAge: finalAccessHours,
+                httpOnly: false,
+                sameSite: "none",
+                secure: true,
               });
+
               res.cookie("refreshToken", refreshToken, {
-                maxAge: finalRefreshToken,
+                maxAge: finalRefreshTime,
+                httpOnly: false,
+                sameSite: "none",
+                secure: true,
               });
-              res.status(200).json({
+
+              res.status(201).json({
                 ok: true,
                 user: user,
                 accessToken: accessToken,
